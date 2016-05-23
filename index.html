@@ -85,18 +85,17 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 {% if page.latlng %}
 <p>
-  The workshop is in the NIH Library training room in Building 10
-  <a href="https://fmrif.nimh.nih.gov/public/directions/Bldg10Map.jpg/image_view_fullscreen">(interior map)</a>
-  To get to the Library, enter Building 10 through the South Entrance; the Library is the only door down the left corridor.
-</p>
-
-<p>
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+</p>
+<p>
+  The workshop is in the NIH Library training room in Building 10
+  <a href="https://fmrif.nimh.nih.gov/public/directions/Bldg10Map.jpg/image_view_fullscreen">(interior map)</a>
+  To get to the Library, enter Building 10 through the South Entrance; the Library is the only door down the left corridor.
 </p>
 {% endif %}
 
